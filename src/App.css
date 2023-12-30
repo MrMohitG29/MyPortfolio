@@ -18,27 +18,23 @@
 
 .profile-content {
   display: flex;
-  align-items: center; /* Center content vertically */
-}
-
-.image-container {
-  width: 500px; /* Adjust the width of the container */
-  height: 500px; /* Adjust the height of the container */
-  border-radius: 50%; /* Make the container round */
-  overflow: hidden; /* Hide overflow to maintain round shape */
-  display: flex;
-  justify-content: center;
+  flex-direction: column; /* Display content in a column */
   align-items: center;
 }
 
-
-.profile-image {
-  width: 500px; /* Adjust the width of the profile image */
-  height: 500px; /* Adjust the height of the profile image */
-  border-radius: 50%; /* Make the image round */
-  object-fit: cover; /* Maintain aspect ratio and cover container */
+.image-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px; /* Spacing between image and details */
 }
 
+.profile-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 .details {
   text-align: center;
@@ -48,16 +44,33 @@
 .description {
   font-size: 16px;
   line-height: 1.6;
-  max-width: 600px; /* Set a maximum width */
+  width: 500px;
+  height: 500px;
+  max-width: 100%; /* Responsive maximum width */
+  max-height: 100%; /* Responsive maximum height */
   margin: 0 auto; /* Center horizontally */
 }
 
-
 .hello {
-  font-size: 40px; /* Adjust the font size */
+  font-size: 40px;
   font-weight: 600;
-  margin-bottom: 10px; /* Spacing between 'Hello' and text */
+  margin-bottom: 10px;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .profile-content {
+    align-items: center; /* Center both image and description */
+  }
+
+  .description {
+    width: 400px; /* Set the width to 300 pixels */
+    height: 300px; /* Set the height to 300 pixels */
+    max-width: 100%; /* Allow responsiveness */
+    margin: 20px auto 0; /* Center the description horizontally and add spacing */
+  }
+}
+
 
 
 .resume{

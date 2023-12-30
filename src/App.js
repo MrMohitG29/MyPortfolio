@@ -7,7 +7,6 @@ import Project from './Components/Project';
 import { Route, Routes } from 'react-router-dom';
 
 import React, { Component } from 'react'
-import Footer from './Components/Footer';
 
 export default class App extends Component {
 
