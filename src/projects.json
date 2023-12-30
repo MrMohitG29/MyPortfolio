@@ -1,0 +1,64 @@
+{
+    "acadmicProjects": [
+        {
+            "name": "ChatBox-Lisa",
+            "duration": "07/2020 - 07/2020",
+            "descriptions": [
+                "An advanced chatbot developed using NLP techniques, the NLTK Python library, and the Django framework.",
+                "Demonstrates remarkable capabilities such as conducting Wikipedia searches, providing news updates, movie downloading links, and accurate weather information."
+            ]
+        },
+        {
+            "name": "QuotesClub",
+            "duration": "04/2020 - 05/2020",
+            "descriptions": [
+                "A dynamic writing website catering to writers and performers.",
+                "Provides a platform for creative expression with features for composing Shayari, poems, thoughts, opinions, and status updates.",
+                "Showcases compositions on images and wallpapers for enhanced visual appeal."
+            ]
+        },
+        {
+            "name": "Junkbox",
+            "duration": "06/2020 - 06/2020",
+            "descriptions": [
+                "A comprehensive movie downloading platform built on the Django framework.",
+                "Features an extensive collection of over 18,000 movies.",
+                "Utilizes web scraping techniques to extract movie data and corresponding downloading links from various sources, offering easy access and direct downloads."
+            ]
+        }
+    ],
+    "projects": [
+        {
+          "employer": "SensenAI",
+          "title": "SENFORCE",
+          "descriptions": [
+            "Product deal with capturing data of vehicle, generate alert in case of violation and sends data to cloud, created an API to automate the ticket generation to the offender.",
+            "Developed backend functionality using Java, Spring-Boot Hibernate ensuring seamless and efficient order processing.",
+            "Proactively identified and resolved critical issues, reducing application downtime by 30% and increasing overall customer satisfaction Handling product deployment and Bug fixing.",
+            "Assisted in the design and development of database structures to support application functionality"
+          ],
+          "technology": "Java, Hibernate, JSP, RESTAPI, JavaScript"
+        },
+        {
+          "employer": "SensenAI",
+          "title": "SCANCAM",
+          "descriptions": [
+            "Product designed for managing fuel station operations by gathering the vehicle data.",
+            "Designed the user interface and user experience for all the core features including forecourt view, drive-off etc.",
+            "Development of UI/UX features, working closely with cross-functional teams to meet the needs.",
+            "Conducted comprehensive security testing to identify and address vulnerabilities before deployment."
+          ],
+          "technology": "Java, Hibernate, ReactJS, JQuery"
+        },
+        {
+          "employer": "SensenAI",
+          "title": "SENPARK",
+          "descriptions": [
+            "Parking solution to monitor parking occupancy in a parking area and efficiently manage parking.",
+            "Developed a user-friendly dashboard for drivers to check parking availability.",
+            "Identified & addressed critical issues in a proactive manner, contributed in the development of database structures."
+          ],
+          "technology": "Java, Hibernate, JSP, JS, JQuery"
+        }
+      ]
+}

@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: transparent !important;
 }
+/* Dashboard.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dashboard {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Optional background color for visualization */
 }
 
-.App-link {
-  color: #61dafb;
+.profile {
+  text-align: center;
+  max-width: 100%; /* Allow content to take full width */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-content {
+  display: flex;
+  align-items: center; /* Center content vertically */
+}
+
+.image-container {
+  width: 500px; /* Adjust the width of the container */
+  height: 500px; /* Adjust the height of the container */
+  border-radius: 50%; /* Make the container round */
+  overflow: hidden; /* Hide overflow to maintain round shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.profile-image {
+  width: 500px; /* Adjust the width of the profile image */
+  height: 500px; /* Adjust the height of the profile image */
+  border-radius: 50%; /* Make the image round */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+
+.details {
+  text-align: center;
+  padding: 0 20px; /* Adjust spacing around text */
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px; /* Set a maximum width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+
+.hello {
+  font-size: 40px; /* Adjust the font size */
+  font-weight: 600;
+  margin-bottom: 10px; /* Spacing between 'Hello' and text */
+}
+
+
+.resume{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+
+/* ContactPage.css */
+.contact-container {
+  text-align: center;
+  margin-top: 100px;
+  /* Add more styling as needed */
+}
+
+.contact-info {
+  font-size: 1.0em;
+  margin-bottom: 20px;
+  /* Additional styles for contact info */
+}
+
+.contact-message {
+  font-style: italic;
+  color: #555;
+  /* Additional styles for the message */
+}
+
+/* Contact.css */
+.contact-container {
+  text-align: center;
+  margin-top: 100px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+
+/* Project.css */
+.project-container {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.project-image{
+  width: 400px;
+  height: 200px;
+}
+
+a{
+  color: black !important;
+  text-decoration: none;
 }

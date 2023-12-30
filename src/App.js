@@ -1,25 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './Components/Dashboard';
+import NavBar from './Components/NavBar';
+import Resume from './Components/Resume';
+import Contact from './Components/Contact';
+import Project from './Components/Project';
+import { Route, Routes } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react'
+import Footer from './Components/Footer';
+
+export default class App extends Component {
+
+  render() {
+    return (
+      <>
+        <NavBar title="Mohit G" />
+        <Routes>
+          <Route path='/' element={
+            <Dashboard />
+          } />
+
+          <Route path='resume' element={
+            <Resume />
+          } />
+
+          <Route path='projects' element={
+            <Project />
+          } />
+
+          <Route path='contact' element={
+            <Contact />
+          } />
+
+        </Routes>
+      </>
+    )
+  }
 }
 
-export default App;

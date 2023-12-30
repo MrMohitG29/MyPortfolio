@@ -1,0 +1,68 @@
+{
+    "education": [
+      {
+        "duration": "May/2016 - Jun/2017",
+        "degree": "B.Tech CSE",
+        "organization" : "SRM University",
+        "descriptions": ["I hold a B.Tech degree in Computer Science Engineering and have honed my skills in an array of programming languages and web development technologies. With a solid foundation in Computer Science, I possess a comprehensive understanding of concepts essential to the field.",
+        "My proficiency spans across languages such as Python, Java, C, and web development technologies like Django, HTML, CSS, and JavaScript. My expertise in Python extends to utilizing Django, allowing me to build robust and scalable web applications. Moreover, I have a strong grasp of Java, enabling me to develop versatile software solutions. Additionally, my familiarity with web technologies—HTML, CSS, and JavaScript—empowers me to create interactive and visually appealing web interfaces. Throughout my academic and professional journey, I have actively applied my knowledge to solve real-world challenges. ",
+        "I am passionate about leveraging technology to innovate and deliver impactful solutions. My diverse skill set enables me to adapt swiftly to new technologies and environments, ensuring efficiency and excellence in every project I undertake."]
+      }
+    ],
+    "specialized_skills": {
+      "languages": [
+        "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Django",
+        "SpringBoot",
+        "ReactJS"
+      ],
+      "databases": [
+        "MySql",
+        "PostgreSQL"
+      ],
+      "skills": [
+        "CI/CD",
+        "Docker",
+        "Tomcat",
+        "HTML",
+        "CSS"
+      ],
+      "tools": [
+        "GIT",
+        "JIRA",
+        "Confluence"
+      ],
+      "operating_systems": [
+        "CentOS (Linux)",
+        "Windows"
+      ]
+    },
+    "experience": [
+      {
+        "duration": "Jun/2021 - Present",
+        "organization" : "Sensen AI",
+        "designation" : "Software Engineer",
+        "responsibilities": [
+          "Designed and developed full-stack web applications utilizing Java and Spring framework for various client requirements.",
+          "Implemented Python and Django framework for efficient back-end functionalities, integrating with databases and external APIs.",
+          "Worked on front-end development tasks using ReactJS, implementing responsive designs for optimal user experience.",
+          "Participated in code reviews and contributed to the continuous improvement of development processes."
+        ]
+      },
+      {
+        "duration": "Aug/2020 - Jun/2021",
+        "organization" : "Sensen AI",
+        "designation" : "Software Engineer",
+        "responsibilities": [
+          "Collaborated with senior developers to develop and implement new features using Java and Spring framework.",
+          "Contributed to the design and development of a Python-based Django application, including RESTful APIs and data integrity.",
+          "Designed and optimized intuitive user interfaces using JSP, CSS, and JavaScript.",
+          "Ensured clean and efficient code following coding standards and best practices."
+        ]
+      }
+    ]
+  }
