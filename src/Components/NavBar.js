@@ -8,7 +8,7 @@ export default class NavBar extends Component {
             <>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary mx-4">
                     <div className="container-fluid">
-                        <Link className="navbar-brand fs-1" to=""><strong>{this.props.title}</strong></Link>
+                        <Link className="navbar-brand fs-1" to="MyPortfolio"><strong>{this.props.title}</strong></Link>
                         <button
                             className="navbar-toggler"
                             type="button"

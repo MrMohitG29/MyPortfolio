@@ -15,7 +15,7 @@ export default class App extends Component {
       <>
         <NavBar title="Mohit G" />
         <Routes>
-          <Route path='' element={
+          <Route path='MyPortfolio' element={
             <Dashboard />
           } />
 
