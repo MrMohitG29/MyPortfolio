@@ -29,10 +29,18 @@ export default class Resume extends Component {
         <div className='row mt-5'>
           <div className='col-md-5'>
             <h3><strong>Skills & Expertise</strong></h3>
-            {/* Add your skills content here */}
           </div>
-          <div className='col-md-7'>
-            {/* Your skills content */}
+          <div className='row col-md-7'>
+            {Object.entries(resumeJson.specialized_skills).map(([category, skills], index) => (
+              <div className='col-md-6' key={index}>
+                <h5>{category.toUpperCase()}</h5>
+                <ul>
+                  {skills.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
         <hr></hr>

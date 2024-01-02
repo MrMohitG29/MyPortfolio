@@ -29,6 +29,7 @@ class Contact extends Component {
           </p>
         <div className='my-5'>
           <div className="contact-info">
+            <p>Linkedin: <a href='https://www.linkedin.com/in/mohit-gorakhapuriya/'>Mohit Gorakhapuriya</a></p>
             <p>Email: mohitgorakhapuriya29@gmail.com</p>
             <p>Phone: +917899339541</p>
           </div>

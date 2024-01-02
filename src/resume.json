@@ -24,21 +24,20 @@
         "MySql",
         "PostgreSQL"
       ],
-      "skills": [
-        "CI/CD",
-        "Docker",
-        "Tomcat",
-        "HTML",
-        "CSS"
-      ],
       "tools": [
         "GIT",
         "JIRA",
         "Confluence"
       ],
-      "operating_systems": [
+      "operating systems": [
         "CentOS (Linux)",
         "Windows"
+      ],"skills": [
+        "CI/CD",
+        "Docker",
+        "Tomcat",
+        "HTML",
+        "CSS"
       ]
     },
     "experience": [

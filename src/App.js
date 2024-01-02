@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <NavBar title="Mohit G" />
+        <NavBar title="Mohit Gorakhapuriya" />
         <Routes>
           <Route path='MyPortfolio' element={
             <Dashboard />
